@@ -1,0 +1,26 @@
+body{
+  text-align: center;
+  width: 50%;
+  max-width: 660px;
+  margin: 6rem auto;
+  background-color: #2C3333;
+  color: #fff;
+  max-height: 100vh;
+}
+
+.surfaceArea {
+  background-color: #395B64;
+  border-radius: 7px;
+  padding: 2em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.radius, .radiusSubmit {
+  max-width: 50%;
+  margin-inline: auto;
+}
