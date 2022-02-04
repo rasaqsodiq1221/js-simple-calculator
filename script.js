@@ -1,5 +1,5 @@
 const answer = document.querySelector('.answer');
-const reset = document.querySelector('.reset');
+let reset = document.querySelector('.reset');
 
 const radius = document.querySelector('.radius');
 const radiusSubmit = document.querySelector('.radiusSubmit');
@@ -10,8 +10,10 @@ function surfaceAreaOfSphere () {
   answer.textContent = "answer: " + result;
   answer.style.backgroundColor = "#2666CF"
   setReset ();
-  radiusSubmit.addEventListener('click', surfaceAreaOfSphere);
+  console.log("Heyoo")
 }
+radiusSubmit.addEventListener('click', surfaceAreaOfSphere);
+// radiusSubmit.addEventListener('click', () => {console.log("Hey")})
 
 
 function setReset () {
